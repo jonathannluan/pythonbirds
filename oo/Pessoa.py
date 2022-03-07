@@ -15,3 +15,5 @@ if __name__ == '__main__':
     print(p.idade)
     for n in p.filhos:
         print(n.nome)
+    p.sobrenome='Biserra'
+    print(helena.__dict__)
